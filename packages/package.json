@@ -1,0 +1,18 @@
+{
+  "name": "com-yxr",
+  "version": "0.1.1",
+  "description": "测试组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "com-yxr",
+    "yxr"
+  ],
+  "author": "yxr",
+  "license": "ISC",
+  "devDependencies": {
+    "element-ui": "^2.15.6"
+  }
+}
