@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-03-30 15:46:57
- * @LastEditTime: 2022-03-31 15:17:59
+ * @LastEditTime: 2022-04-07 16:40:57
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /vue2/examples/main.js
@@ -14,8 +14,10 @@ import fxCcomponentsTest from 'com-yxr'
 // Vue.use(ElementUI, "ElementUI");
 Vue.use(fxCcomponentsTest);
 
+import router from './router/index';
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
